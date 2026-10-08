@@ -1,0 +1,15 @@
+# MicroPython / device
+config.json          # real device config: Wi-Fi creds + webhook — never commit
+*.pyc
+__pycache__/
+
+# build / slicer scratch
+*.gcode
+*_plate_*.png
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
